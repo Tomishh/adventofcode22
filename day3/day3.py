@@ -1,3 +1,4 @@
+import time
 def exo1():
     array=[]
     value=0
@@ -9,7 +10,6 @@ def exo1():
             left = set(line[len(line)//2:])
             intersect=(right.intersection(left)).pop()
             array.append(intersect)
-    print(array)
     for letter in array:
         if letter.isupper():
             value+= ord(letter) - ord('A') + 27
@@ -29,9 +29,6 @@ def exo2():
             line2= set(sacks[i+1])
             line3= set(sacks[i+2])
             array.append((line1.intersection(line2)).intersection(line3).pop())
-
-    print(array)
-
     for letter in array:
         if letter.isupper():
             value+= ord(letter) - ord('A') + 27
@@ -40,4 +37,10 @@ def exo2():
 
     print(value)
 
+start_time = time.time()
+exo1()
+print("--- %s seconds ---" % (time.time() - start_time))
+
+start_time = time.time()
 exo2()
+print("--- %s seconds ---" % (time.time() - start_time))

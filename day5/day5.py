@@ -42,16 +42,13 @@ def exo1():
     print(crates_list)
     # os.system('cls')
     with open('day5_instructions.txt', 'r') as k:
-        print(len(crates_list))
         for line in k:
             number_of_box, array_start, array_end = read_order(line)
             # print(f"Move {number_of_box} from {array_start} to {array_end}")
             temp_array_start, temp_array_end=move_crates(int(number_of_box), crates_list[int(array_start)-1], crates_list[int(array_end)-1])
             crates_list[int(array_start)-1]=temp_array_start
             crates_list[int(array_end)-1]=temp_array_end
-            printArr(crates_list)
-    
-    print(len(crates_list))
+        printArr(crates_list)
  
 
 def exo2():
@@ -67,9 +64,11 @@ def exo2():
             crates_list[int(array_start)-1]=temp_array_start
             crates_list[int(array_end)-1]=temp_array_end
             
-    printArr(crates_list)
-    print(len(crates_list))
+        printArr(crates_list)
 # time the execution of the function
+start_time = time.time()
+exo1()
+print("--- %s seconds ---" % (time.time() - start_time))
 start_time = time.time()
 exo2()
 print("--- %s seconds ---" % (time.time() - start_time))
