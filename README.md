@@ -17,8 +17,10 @@ Some challenge will be solved using a really dirty and not performing methods an
 | 3 | Part 1 | Solved | 0.0020s | ⭐⭐☆☆☆ | I didn't know the intersect function.. so doing it with loop wasn't succesful
 | 3 | Part 2 | Solved | 0.0020s | ⭐☆☆☆☆ | It's easier with the intersect function 😄
 | 4 | Part 1 | Solved | 0.0009s | ⭐⭐☆☆☆ | I didn't take time to for my var to int.. I lose a lot of time on this error !
-| 4 | Part 2 | Solved | 0.0021s | ⭐☆☆☆☆ | A paper sheet and a pen.... solved is less than 5 minutes !
-| 5 | Part 1 | Solved | 0.0021s | ⭐⭐☆☆☆ | For me, manipulating arrays is always weird.. But after some tests, it was really easy to do this clear exercice !
-| 5 | Part 2 | Solved | 0.0008s | ☆☆☆☆☆ | Just needed to remove the "reverse" part from the first part, really easy, i'm proud of my code, which this time isn't sponsored by Barilla
+| 4 | Part 2 | Solved | 0.0021s | ⭐☆☆☆☆ | A paper sheet and a pen.... solved is less than 5 minutes |
+| 5 | Part 1 | Solved | 0.0021s | ⭐⭐☆☆☆ | For me, manipulating arrays is always weird.. But after some tests, it was really easy to do this clear exercice !|
+| 5 | Part 2 | Solved | 0.0008s | ☆☆☆☆☆ | Just needed to remove the "reverse" part from the first part, really easy, i'm proud of my code, which this time isn't sponsored by Barilla|
+| 6 | Part 1 | Solved | 0.0009s | ⭐☆☆☆☆ | I struggle with the examples, but after understood it, I was really easy to process and find the missing knowledge for me, the set() function.
+| 6| Part 2 | Solved | 0.0020s | ☆☆☆☆☆ | Just 1 parameter to add and add scalability to my first function
 | --- | --- | --- | --- | --- |
 
